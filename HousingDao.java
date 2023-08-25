@@ -14,7 +14,7 @@ public class HousingDao {
 	
 		private String jdbcURL =  "jdbc:mysql://localhost:3306/services";
 		private String jdbcUsername = "root";
-		private String jdbcpassword ="123456";
+		private String jdbcpassword ="123452346";
 		
 		private static final String INSERT_STUDENTS_SQL = "INSERT INTO  housing" + "(firstName,lastName,studentId, type, numberOfPeople) "
 													+ "values" +	"(?,?,?,?,?);";
