@@ -17,7 +17,7 @@ public class Connect {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/services", "root", "12345566");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/services", "root1", "12345566");
 			statement = connection.prepareStatement(SELECT_STUDENTS_SQL);
 			statement.setString(1, uname);
 			statement.setString(2, password);
